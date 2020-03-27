@@ -1,0 +1,16 @@
+<button id="sumae1">+</button> Este es el boton para agregar un punto
+
+<img src="" id="imagen">esta es la etiqueta de la imagen, fijate que en src no hay nada porque se lo voy a agregar desde jquery
+
+$('#sumae1').click(function(){ aca llamo al boton + a traves de la id que es "sumae1"
+
+		var src1 = 'imagenes/f.jpg'; en una variable que se llama src1 meto la ruta de donde esta la imagen
+
+		$("#imagen").attr("src", src1); aca meto esa url en la etiqueta img a 
+
+		traves de la id "imagen" y la propiedad attr es lo q mete la url en la 
+
+		imagen, primero te pide que atributo queres agregar o sea el src y al 
+
+		lado la variable osea lo q pusiste en src1
+	})
